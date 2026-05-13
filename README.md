@@ -1,4 +1,4 @@
-# Real-Time Human Pose Tracking with Kinect
+# Kinect-Based Human Motion Analysis
 
 ## Overview
 

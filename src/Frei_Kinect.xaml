@@ -1,0 +1,14 @@
+﻿<Window x:Class="Kinect_20_12_2023_V2.Frei_Kinect"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kinect_20_12_2023_V2"
+        mc:Ignorable="d"
+        Title="Frei" Width="1920" Height="1080"
+        Loaded="FK_Loaded" Closed="FK_Closed">
+    <Grid>
+        <Image Name="camera" Width="1920" Height="1080" />
+        <Canvas Name="canvas" Width="1920" Height="1080" />
+    </Grid>
+</Window>

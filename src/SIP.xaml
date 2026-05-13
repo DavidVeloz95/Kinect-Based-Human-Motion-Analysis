@@ -1,0 +1,20 @@
+﻿<Window x:Class="Kinect_01_12_V2.SIP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kinect_01_12_V2"
+        mc:Ignorable="d"
+        Title="Stepping In Place (SIP)" Height="600" Width="450" Closed="SIP_Closed">
+    <Grid>
+        <MediaElement x:Name="axMediaElement1" HorizontalAlignment="Left" Height="281" Margin="45,64,0,0" VerticalAlignment="Top" Width="281" Initialized="StartVideoSIP" MediaEnded="RepeatSIP"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="Stepping in place" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,361,0,0" TextWrapping="Wrap" Text="Anweisungen:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="1 - Stellen Sie sich mit schulterbreitem Abstand zu den Füßen hin."/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="2 - Heben Sie die Knie leicht an und beginnen Sie, auf und ab zu gehen, ohne sich von der Stelle zu bewegen." Width="370"/>
+        <Button Content="Einverstanden" HorizontalAlignment="Center" Margin="0,527,0,0" VerticalAlignment="Top" Click="bntEinverstanden_Click"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="87,485,0,0" TextWrapping="Wrap" Text="20122023Proband" VerticalAlignment="Top" Width="249"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,489,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Proband"/><Run Language="de-de" Text=" "/><Run Text="ID:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,437,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="3 - Machen Sie weiter, bis Sie das Tonsignal hören, und fahren Sie fort, nachdem das Tonsignal wieder ertönt ist." Width="360"/>
+    </Grid>
+</Window>

@@ -15,6 +15,7 @@ Motion data is recorded and later processed in MATLAB for visualization and offl
 - Real-time skeletal tracking
 - RGB / Depth / Infrared stream visualization
 - Sit/Stand posture detection
+- Step In Place (SIP) activity detection
 - 3D joint coordinate extraction
 - Interactive WPF graphical interface
 - Audio feedback system
